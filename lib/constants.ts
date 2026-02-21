@@ -130,7 +130,7 @@ export const projects: Project[] = [
 		title: 'Fabric Defect Detection | FYP',
 		description:
 			'Developed an end‑to‑end fabric defect detection system using deep learning (YOLO, ResNet, EfficientNet, custom CNNs) and computer vision, deployed as a web platform with real‑time and upload‑based detection.',
-		image: 'https://images.pexels.com/photos/3861958/pexels-photo-3861958.jpeg',
+		image: '/projects/defect.png',
 		tags: ['Python', 'YOLO', 'CNN', 'FastAPI', 'MySQL', 'React.js', 'Computer Vision'],
 		link: 'https://fyp-defect-detection.vercel.app/',
 		repo: 'https://github.com/skukreja123/FYP-defect-detection-AI',
@@ -157,7 +157,7 @@ export const projects: Project[] = [
 	title: 'Fleck | Full-Stack Web Application',
 	description:
 		'Developed a complete web application using Node.js, React.js, and MySQL, featuring advanced relational database design, optimized queries, role-based access control, and a responsive frontend interface. Recognized as Best Database Project for practical implementation and performance.',
-	image: 'https://images.pexels.com/photos/270360/pexels-photo-270360.jpeg',
+	image: '/projects/fleck.png',
 	tags: ['Node.js', 'React.js', 'MySQL', 'Full-Stack', 'Web Development', 'Database Design'],
 	link: '#',
 	repo: 'https://github.com/skukreja123/Fleck_Student_Portal_System',
@@ -166,7 +166,7 @@ export const projects: Project[] = [
 	title: 'ListOfMovies | Flutter Movie App',
 	description:
 		'Developed a cross-platform movie listing application using Flutter, implementing structured state management for efficient UI updates and scalable architecture. Built reusable widgets, dynamic list rendering, and responsive layouts to ensure smooth performance across devices.',
-	image: 'https://images.pexels.com/photos/799137/pexels-photo-799137.jpeg',
+	image: '/projects/listofmovies.png',
 	tags: ['Flutter', 'Dart', 'State Management', 'Mobile App Development', 'UI/UX'],
 	link: '#',
 	repo: 'https://github.com/skkukreja123/ListofMovies',
