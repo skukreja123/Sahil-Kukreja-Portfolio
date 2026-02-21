@@ -171,6 +171,15 @@ export const projects: Project[] = [
 	link: '#',
 	repo: 'https://github.com/skkukreja123/ListofMovies',
 },
+{
+  title: 'Expense Tracker | Personal Finance Manager',
+  description:
+    'Collaborated on the development of a full-stack Expense Tracker application that enables users to manage income, expenses, and financial summaries in real-time. Implemented structured data handling, category-based expense tracking, dynamic charts, and responsive UI for seamless financial monitoring. Focused on clean architecture, efficient state updates, and scalable component design.',
+  image: '/projects/expense.jpg',
+  tags: ['Full Stack Development', 'Finance App', 'REST APIs', 'Database Integration', 'Responsive UI'],
+  link: '#',
+  repo: 'https://github.com/MuhammadUmar7831/expense-tracker',
+}
 ];
 
 export type Education = {

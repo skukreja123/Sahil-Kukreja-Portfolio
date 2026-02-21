@@ -62,21 +62,12 @@ export default function CertificatesPage() {
 											</Button>
 										)}
 										{cert.pdf && (
-											<Button
-  size="sm"
-  variant="outline"
-  onClick={() => {
-    const link = document.createElement("a");
-    link.href = cert.pdf!;
-    link.setAttribute("download", cert.pdf!.split("/").pop()!);
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
-  }}
->
-  <FileDown className="h-4 w-4 mr-2" />
-  Download
-</Button>
+											<Button size="sm" variant="outline" asChild>
+												<a href={cert.pdf} download>
+													<FileDown className="h-4 w-4 mr-2" />
+													Download
+												</a>
+											</Button>
 										)}
 									</CardFooter>
 								</Card>
