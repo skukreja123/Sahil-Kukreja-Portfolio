@@ -132,14 +132,14 @@ export const projects: Project[] = [
 			'Developed an end‑to‑end fabric defect detection system using deep learning (YOLO, ResNet, EfficientNet, custom CNNs) and computer vision, deployed as a web platform with real‑time and upload‑based detection.',
 		image: 'https://images.pexels.com/photos/3861958/pexels-photo-3861958.jpeg',
 		tags: ['Python', 'YOLO', 'CNN', 'FastAPI', 'MySQL', 'React.js', 'Computer Vision'],
-		link: '#',
-		repo: '#',
+		link: 'https://fyp-defect-detection.vercel.app/',
+		repo: 'https://github.com/skukreja123/FYP-defect-detection-AI',
 	},
 	{
 		title: 'FeedVisior',
 		description:
 			'Built a video analysis tool for real‑time emotion detection using Python, DeepFace, and Streamlit, deployed on AWS for efficient processing of uploaded and live video feeds.',
-		image: 'https://images.pexels.com/photos/3184304/pexels-photo-3184304.jpeg',
+		image: '/projects/feedvisor.jpg',
 		tags: ['Python', 'DeepFace', 'Streamlit', 'AWS', 'Video Analysis', 'Machine Learning'],
 		link: '#',
 		repo: 'https://github.com/DeRohan/FeedVisor-Sentiment-Analyser',
@@ -160,8 +160,17 @@ export const projects: Project[] = [
 	image: 'https://images.pexels.com/photos/270360/pexels-photo-270360.jpeg',
 	tags: ['Node.js', 'React.js', 'MySQL', 'Full-Stack', 'Web Development', 'Database Design'],
 	link: '#',
-	repo: '#',
-}
+	repo: 'https://github.com/skukreja123/Fleck_Student_Portal_System',
+},
+{
+	title: 'ListOfMovies | Flutter Movie App',
+	description:
+		'Developed a cross-platform movie listing application using Flutter, implementing structured state management for efficient UI updates and scalable architecture. Built reusable widgets, dynamic list rendering, and responsive layouts to ensure smooth performance across devices.',
+	image: 'https://images.pexels.com/photos/799137/pexels-photo-799137.jpeg',
+	tags: ['Flutter', 'Dart', 'State Management', 'Mobile App Development', 'UI/UX'],
+	link: '#',
+	repo: 'https://github.com/skkukreja123/ListofMovies',
+},
 ];
 
 export type Education = {
@@ -230,7 +239,7 @@ export const certificates: Certificate[] = [
 		date: 'Apr 2023',
 		id: 'ACM-DEV-DAY-2023',
 		url: '#',
-		pdf: '/certificates/acm_devday_2023.pdf',
+		pdf: '/certificates/acm_devday_2023.jpg',
 	},
 	{
 		title: 'Speed Programming – Certificate of Participation (Top 7 Finalist)',
@@ -238,7 +247,7 @@ export const certificates: Certificate[] = [
 		date: 'Mar 2022',
 		id: 'PROCOM-2022',
 		url: '#',
-		pdf: '/certificates/procom_2022.pdf',
+		pdf: '/certificates/procom_2022.jpg',
 	},
 	{
 		title: 'Competitive Programming',
