@@ -32,7 +32,7 @@ I enjoy collaborating on projects that challenge me technically and creatively. 
 							</p>
 						</div>
 						<Button className="mt-6" asChild>
-							<a href="/sahil_kukreja_backend_resume.pdf" download>
+							<a href="/sahil_kukreja_cv.pdf" download>
 								Download CV <ArrowDownCircle className="ml-2 h-4 w-4" />
 							</a>
 						</Button>
