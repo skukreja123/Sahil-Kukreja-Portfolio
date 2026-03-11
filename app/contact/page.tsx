@@ -27,13 +27,24 @@ export default function ContactPage() {
 		});
 	};
 
-	const handleSubmit = (e: React.FormEvent) => {
-		e.preventDefault();
-		// Form submission logic would go here
-		console.log('Form submitted:', formState);
-		alert('Message sent successfully!');
-		setFormState({ name: '', email: '', subject: '', message: '' });
-	};
+		const handleSubmit = async (e: React.FormEvent) => {
+  e.preventDefault();
+
+  const res = await fetch("https://formspree.io/f/meergjaa", {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify(formState),
+  });
+
+  if (res.ok) {
+    alert("Message sent!");
+    setFormState({ name: '', email: '', subject: '', message: '' });
+  }
+};
+
+	
 
 	return (
 		<div className="py-16 md:py-24">
