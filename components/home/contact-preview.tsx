@@ -24,12 +24,22 @@ export function ContactPreview() {
 		});
 	};
 
-	const handleSubmit = (e: React.FormEvent) => {
-		e.preventDefault();
-		// Form submission would be handled here
-		alert('Form submitted! This is a demo - no actual email is sent.');
-		setFormState({ name: '', email: '', message: '' });
-	};
+	const handleSubmit = async (e: React.FormEvent) => {
+  e.preventDefault();
+
+  const res = await fetch("https://formspree.io/f/meergjaa", {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify(formState),
+  });
+
+  if (res.ok) {
+    alert("Message sent!");
+    setFormState({ name: "", email: "", message: "" });
+  }
+};
 
 	return (
 		<section className="py-16 md:py-24 bg-muted/30">
