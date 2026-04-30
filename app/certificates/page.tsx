@@ -63,7 +63,7 @@ export default function CertificatesPage() {
 										)}
 										{cert.pdf && (
 											<Button size="sm" variant="outline" asChild>
-												<a href={cert.pdf} download>
+												<a href="/ieee_xtreme_16.pdf" download>
 													<FileDown className="h-4 w-4 mr-2" />
 													Download
 												</a>
