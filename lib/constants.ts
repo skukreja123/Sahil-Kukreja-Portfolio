@@ -43,7 +43,7 @@ export const siteConfig = {
 
 
 		whatsapp: 'https://wa.me/+923083420221',
-		email: 'kukrejasahil36@gmail.com',
+		email: 'sahilkukreja2212@gmail.com',
 		phone: 'tel:+923083420221',
 	},
 };
@@ -179,6 +179,15 @@ export const projects: Project[] = [
   tags: ['Full Stack Development', 'Finance App', 'REST APIs', 'Database Integration', 'Responsive UI'],
   link: '#',
   repo: 'https://github.com/MuhammadUmar7831/expense-tracker',
+},
+{
+  title: 'Dealer & Vehicle Inventory System',
+  description:
+    'Built a multi-tenant Vehicle Management System using Java 17 and Spring Boot, following Clean Architecture and a Modular Monolith design. Implemented secure tenant isolation with interceptor-based request handling, ThreadLocal context management, and repository-level filtering. Developed RESTful APIs for dealer and vehicle management, integrated PostgreSQL with JPA/Hibernate, and enforced robust validation and access control.',
+  image: '/projects/dealer.png',
+  tags: ['Java', 'Spring Boot', 'Spring Data JPA', 'PostgreSQL', 'Multi-Tenancy', 'REST APIs'],
+  link: '#',
+  repo: 'https://github.com/skukreja123/Vehicle-Management-System',
 }
 ];
 
@@ -241,6 +250,7 @@ export const certificates: Certificate[] = [
 		id: 'IEEE-XTREME-16',
 		url: '#',
 		pdf: '/certificates/ieee_xtreme_16.pdf',
+		
 	},
 	{
 		title: 'Competitive Programming – Certificate of Participation (Top 5 Finalist)',
@@ -297,6 +307,14 @@ export const certificates: Certificate[] = [
 		id: 'COURSERA-ML-2024',
 		url: '#',
 		pdf: '/certificates/coursera_machine_learning.pdf',
+	},
+	{
+		title: 'Java Microservices: From Design to Deployment',
+		issuer: 'LinkedIn',
+		date: '2025',
+		id: 'LinkedIn-Java-2025',
+		url: '#',
+		pdf: '/certificates/java.png',
 	},
 ];
 
