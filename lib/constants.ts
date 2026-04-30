@@ -249,7 +249,7 @@ export const certificates: Certificate[] = [
 		date: '2022',
 		id: 'IEEE-XTREME-16',
 		url: '#',
-		pdf: '/certificates/ieee_xtreme_16.pdf',
+		pdf: '/ieee_xtreme_16.pdf',
 		
 	},
 	{
@@ -258,7 +258,7 @@ export const certificates: Certificate[] = [
 		date: 'Apr 2023',
 		id: 'ACM-DEV-DAY-2023',
 		url: '#',
-		pdf: '/certificates/acm_devday_2023.jpg',
+		pdf: '/acm_devday_2023.jpg',
 	},
 	{
 		title: 'Speed Programming – Certificate of Participation (Top 7 Finalist)',
@@ -266,7 +266,7 @@ export const certificates: Certificate[] = [
 		date: 'Mar 2022',
 		id: 'PROCOM-2022',
 		url: '#',
-		pdf: '/certificates/procom_2022.jpg',
+		pdf: '/procom_2022.jpg',
 	},
 	{
 		title: 'Competitive Programming',
@@ -274,7 +274,7 @@ export const certificates: Certificate[] = [
 		date: '2023',
 		id: 'WV4A0A7GJMNZ',
 		url: 'https://icpc.global/ICPCID/WV4A0A7GJMNZ',
-		pdf: '/certificates/icpc_certificate.pdf',
+		pdf: '/icpc_certificate.pdf',
 	},
 	{
 		title: 'Best DB Project Certificate',
@@ -282,7 +282,7 @@ export const certificates: Certificate[] = [
 		date: 'Nov 2023',
 		id: 'BEST-DB-2023',
 		url: '#',
-		pdf: '/certificates/best_db_project.pdf',
+		pdf: '/best_db_project.pdf',
 	},
 	{
 		title: 'SayabiDevs Virtual Coding Hackathon 2023',
@@ -290,7 +290,7 @@ export const certificates: Certificate[] = [
 		date: 'Feb 2023',
 		id: 'SAYABI-2023',
 		url: '#',
-		pdf: '/certificates/sayabidevs_2023.pdf',
+		pdf: '/sayabidevs_2023.pdf',
 	},
 	{
 		title: 'Certificate of Participation in Codegoda 2023',
@@ -298,7 +298,7 @@ export const certificates: Certificate[] = [
 		date: 'Apr 2023',
 		id: 'CODEGODA-2023',
 		url: '#',
-		pdf: '/certificates/codegoda_2023.pdf',
+		pdf: '/codegoda_2023.pdf',
 	},
 	{
 		title: 'Machine Learning',
@@ -306,7 +306,7 @@ export const certificates: Certificate[] = [
 		date: '2024',
 		id: 'COURSERA-ML-2024',
 		url: '#',
-		pdf: '/certificates/coursera_machine_learning.pdf',
+		pdf: '/coursera_machine_learning.pdf',
 	},
 	{
 		title: 'Java Microservices: From Design to Deployment',
@@ -314,7 +314,7 @@ export const certificates: Certificate[] = [
 		date: '2025',
 		id: 'LinkedIn-Java-2025',
 		url: '#',
-		pdf: '/certificates/java.png',
+		pdf: '/java.png',
 	},
 ];
 
